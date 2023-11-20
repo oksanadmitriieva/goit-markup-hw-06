@@ -269,13 +269,7 @@ color: #434455 ;
 
 }
 .second-section-image{
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    height: 112px; 
-    background-color: #f4f4fd; 
-    border-radius: 4px; 
-    margin-bottom: 8px;
+    display:none;
 }
 
                                   /*==========third-section========*/
