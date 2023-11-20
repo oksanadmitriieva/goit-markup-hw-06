@@ -58,14 +58,17 @@ body {
     overflow: hidden;
     }
     .section {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 60px;
+        padding-bottom: 60px;
       }
       /*===Мобілні стилі хедер====*/
       .menu-link-link{
         display:none;
 
 
+      }
+      .main-page-nav{
+        display:none;
       }
       .header-container{
         display: flex;
@@ -1140,8 +1143,7 @@ screen and (min-device-pixel-ratio: 2) {
  @media screen and (min-width: 1158px) {
   .container {
   width: 1158px;
-  margin-left: 15px;
-  margin-right: 15px;
+  padding: 0 15px;
      }               
     }
        .link-logo{
@@ -1169,7 +1171,6 @@ screen and (min-device-pixel-ratio: 2) {
        
        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
        url(../images/people-officedesct.jpg);
-     height: 600px;
        }
        @media screen and (min-resolution: 192dpi),
        screen and (min-resolution: 2dppx),
@@ -1180,6 +1181,7 @@ screen and (min-device-pixel-ratio: 2) {
        }
      }
    .first-section-name{
+    display: none;
     margin-bottom: 48px;
     max-width: 496px;
     font-size: 56px;
@@ -1251,19 +1253,16 @@ screen and (min-device-pixel-ratio: 2) {
     column-gap: 0;
     padding-left: 15px;
   }
-  .footer-right-part,
-  .footer-left-part{
-    margin-bottom: 0;
-  }
+  
+  
   .footer-left-part{
     margin-right: 120px;
   }
   .footer-right-part{
     margin-right: 80px;
   }
-  .footer-subscribe-container{
-    margin-left: 0;
-  }
+
+
   .footer-form {
     display: flex;
     gap: 24px;
