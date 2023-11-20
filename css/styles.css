@@ -65,6 +65,7 @@ body {
       .menu-link-link{
         display:none;
 
+
       }
       .header-container{
         display: flex;
@@ -837,6 +838,10 @@ z-index: 999999;
   }
   .mobile-menu-nav-list{
     padding-top: 72px;
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
   }
   .mobile-menu-nav-item{
     margin-bottom: 10px;
@@ -887,9 +892,9 @@ z-index: 999999;
     gap: 40px;
   }
 .mobile-menu-social-list{
-    display: flex;
-  gap: 40px;
-  justify-content: center;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
 }
 .mobile-menu-social-item{
     width: 40px;
