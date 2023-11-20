@@ -1099,19 +1099,19 @@ screen and (min-device-pixel-ratio: 2) {
     flex-direction: row;
 }
 .footer-button{
-    margin-left: 24px;
+   align-items: center;
 }
 .footer-subscribe-title {
-    text-align: left;
+    text-align: center;
   }
   .footer-form-input{
     width: 264px;
   }
   .footer-right-part{
-    text-align: left;
+    text-align: center;
   }
   .footer-left-part{
-    text-align: left;
+    text-align: center;
   }
                            /* tablet modal window*/
  .modal {
