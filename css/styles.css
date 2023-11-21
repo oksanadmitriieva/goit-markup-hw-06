@@ -62,7 +62,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-      }
+    
       .menu-link-link{
         display:none;
 
@@ -771,7 +771,7 @@ width: 100%;
 .checkbox-accept-icon{
     fill: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-
+      }
 
 
 
@@ -788,7 +788,7 @@ width: 100%;
     line-height: 0;
     fill: #2f2f37;
   }
-}
+
 .mobile-menu {
     position: fixed;
     top: 0;
@@ -907,6 +907,7 @@ width: 100%;
 .mobile-menu-social-link:focus{
     background-color: #404bbf;
 }
+      }
  /*========== MEDIA TABLET=========  */
 @media screen and (min-width: 768px) {
     .container {
@@ -915,7 +916,7 @@ width: 100%;
         margin-right: auto;
         padding: 0 15px;
     }
-}
+
  /*=========header==========*/
  .mobile-menu{
     display:none;
@@ -1119,6 +1120,7 @@ screen and (min-device-pixel-ratio: 2) {
 .footer-form-accept{
     width: 376px;
 }
+}
                         /*media desctop*/
  @media screen and (min-width: 1158px) {
   .container {
@@ -1126,7 +1128,7 @@ screen and (min-device-pixel-ratio: 2) {
   margin-left: auto;
     margin-right: auto;
      }               
-    }
+    
        .link-logo{
         margin-right: 76px;
        }
@@ -1250,3 +1252,4 @@ screen and (min-device-pixel-ratio: 2) {
 .foooter-subscribe-container{
     margin-left: 0;
 }
+ }
