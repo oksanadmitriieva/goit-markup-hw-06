@@ -1235,31 +1235,31 @@ gap: 32px;
     padding: 100px 0;
   }
   .page-footer-container{
-    display: flex;
-    align-items: baseline;
+    flex-wrap: nowrap;
+    gap: 0;
+    width: auto;
   }
   
-  
-  .footer-left-part,
-  .footer-right-part{
-    margin-bottom: 0;
-  }
   .footer-left-part{
     margin-right: 120px;
+    display: block;
   }
-
-
-  .footer-form {
-    display: flex;
-    gap: 24px;
-  }
-.footer-button{
-    margin-left: 0;
+.footer-paragraph{
+    max-width: 264px;
 }
-.footer-header-icons{
+.footer-right-part{
     margin-right: 80px;
 }
-.foooter-subscribe-container{
-    margin-left: 80px;
+
+  .footer-form {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+.footer-form-input{
+    width: 264px;
 }
+.footer-form-input::placeholder{
+    opacity: 1;
+}
+
  }
