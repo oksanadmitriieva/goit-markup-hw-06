@@ -1226,7 +1226,8 @@ screen and (min-device-pixel-ratio: 2) {
     padding: 100px 0;
   }
   .page-footer-container{
-    flex-wrap: nowrap;
+    display: flex;
+    align-items: baseline;
   }
   
   
