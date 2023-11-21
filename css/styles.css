@@ -61,17 +61,9 @@ body {
     width: 320px;
     margin-left: auto;
     margin-right: auto;
-}
-    
-      .menu-link-link{
-        display:none;
-
-
+    }
       }
-      .main-page-nav{
-        display:none;
-      }
-      .list-header{
+      .list-header-adress{
         display:none;
       }
       .header-container{
@@ -590,8 +582,8 @@ text-decoration: none;
   border: none;
 }
 .modal-button:focus{
-    background-color: #404bbf; 
-    border: none;
+background-color: #404bbf; 
+border: none;
 }
 .modal-button .icon-modal-close:focus{
     fill: #2e2f42;
@@ -776,12 +768,6 @@ width: 100%;
 }
       
 
-      }
-
-
-
-
-
       /*=============burger=======*/
       @media screen and (max-width: 767px) {
   .header-btn-menu-mobile{
@@ -914,7 +900,7 @@ width: 100%;
     background-color: #404bbf;
 }
       }
-      }
+     
  /*========== MEDIA TABLET=========  */
 @media screen and (min-width: 768px) {
     .container {
