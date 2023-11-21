@@ -91,6 +91,9 @@ body {
       .list-header-adress{
         display:none;
       }
+      .header-btn-menu-mobile{
+        
+      }
       .link-logo{
         font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -111,6 +114,7 @@ body {
       }
 
       /*====== mobile first section hero====*/
+
 .first-section{
     background: #2e2f42;
     max-width: 320px;
@@ -170,13 +174,6 @@ body {
         .button-descr:focus{
         background-color: #404BBF;
         }
-        .sub-title{
-            
-                display: block;
-                font-size: 36px;
-                line-height: 1.2;
-                text-align: center;
-              }
     
           /*===== second-section====*/
           .feature-icon-ul{
