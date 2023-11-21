@@ -83,6 +83,9 @@ body {
       .list-header-adress{
         display:none;
       }
+      .menu-link-link{
+        display:none;
+      }
       .header-btn-menu-mobile{
         display: block;
         margin-left: auto;
