@@ -1251,11 +1251,6 @@ flex-shrink: 0;
 .footer-paragraph{
     max-width: 264px;
 }
-.footer-right-part{
-   padding-left: 120px;
-}
-.foooter-subscribe-container{
-    padding: 80px;
 }
   .footer-form {
     flex-wrap: nowrap;
