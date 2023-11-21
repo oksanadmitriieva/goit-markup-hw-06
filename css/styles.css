@@ -1028,11 +1028,6 @@ screen and (min-device-pixel-ratio: 2) {
     line-height: 1.07;
     text-transform: none;
 }
-.sub-title {
-    display: block;
-    font-size: 56px;
-    line-height: 1.07;
-  }
 
   /*=======section two=====*/
   .feature-icon-ul{
