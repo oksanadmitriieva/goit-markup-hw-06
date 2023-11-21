@@ -1206,6 +1206,12 @@ screen and (min-device-pixel-ratio: 2) {
 }
 .third-list{
     padding: 120px 0;
+    display: inline-flex;
+padding-bottom: 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 32px;
 }
 .team-list-item {
     width: calc((100% - 72px) / 4);
