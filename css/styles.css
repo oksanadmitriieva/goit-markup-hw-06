@@ -1235,7 +1235,6 @@ screen and (min-device-pixel-ratio: 2) {
     margin-bottom: 0;
   }
   .footer-left-part{
-    margin-left: 0;
     margin-right: 120px;
   }
 
@@ -1251,6 +1250,6 @@ screen and (min-device-pixel-ratio: 2) {
     margin-right: 80px;
 }
 .foooter-subscribe-container{
-    margin-left: 0;
+    margin-left: 80px;
 }
  }
