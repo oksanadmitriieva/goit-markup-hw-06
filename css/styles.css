@@ -177,6 +177,9 @@ body {
         }
     
           /*===== second-section====*/
+          .second-section-image{
+            display:none;
+          }
           .feature-icon-ul{
             display: none;
           }
@@ -772,8 +775,9 @@ width: 100%;
     fill: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
       
-
+      }
       /*=============burger=======*/
+      @media screen and (max-width: 767px) {
   .header-btn-menu-mobile{
     border: none;
     background-color: transparent;
