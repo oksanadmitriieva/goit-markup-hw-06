@@ -1232,7 +1232,9 @@ gap: 32px;
     width: calc((100% - 48px) / 3);
   }
   .page-footer{
-    padding: 100px 0;
+width: 1440px;
+height: 312px;
+flex-shrink: 0;
   }
   .page-footer-container{
     flex-wrap: nowrap;
@@ -1243,14 +1245,18 @@ gap: 32px;
   .footer-left-part{
     margin-right: 120px;
     display: block;
+    padding-left:156px ;
+    padding-bottom: 100px;
   }
 .footer-paragraph{
     max-width: 264px;
 }
 .footer-right-part{
-    margin-right: 80px;
+   padding-left: 120px;
 }
-
+.foooter-subscribe-container{
+    padding: 80px;
+}
   .footer-form {
     flex-wrap: nowrap;
     gap: 24px;
