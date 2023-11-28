@@ -47,10 +47,22 @@ background-color: #FFFFFF;
         }
         @media screen and (min-width:480px) {
      .container{      
-        width: 350px;
+       max-width: 320px;
         margin-left: 0;
         margin-right: 0;
         padding-left: 16px;
         padding-right: 16px;
              }
             }
+ @media screen and (min-width: 768px) {
+  .container { 
+  max-width: 768px;
+          } 
+             }
+ @media screen and (min-width: 1158px) {
+ .container {
+max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+                 }
+             }      
