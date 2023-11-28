@@ -52,8 +52,39 @@ background-color: #FFFFFF;
 .menu-link-link{
     display: none;
 }
-
-
+.header-adress{
+    display: none;
+}
+.link-logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 700 ;
+    font-size: 18px ;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    
+    }
+    .logo-part-header{
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:#2e2f42 ;
+        text-decoration: none;
+        }
+       .header-btn-menu-mobile{
+        border: none;
+        background-color: transparent;
+        padding: 0;
+       }
+ 
+       .mobile-menu-close-btn-icon{
+        stroke: #2F2F37;
+       }
 
 
 
