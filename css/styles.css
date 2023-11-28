@@ -1021,9 +1021,10 @@ screen and (min-device-pixel-ratio: 2) {
     url(../images/people-officetablet@2x.jpg);
 }
 }
-.first-section-name{
+.first-section{
+    display: block;
     margin-bottom: 36px;
-    max-width: 496px;
+    max-width:768px;
     font-size: 56px;
     line-height: 1.07;
     text-transform: none;
@@ -1158,13 +1159,13 @@ screen and (min-device-pixel-ratio: 2) {
            url(../images/people-officedesct@2x.jpg);
        }
      }
+     }
    .first-section-name{
-    display: none;
-    margin-bottom: 48px;
-    max-width: 496px;
+    margin-bottom: 36px;
+    max-width: 1158px;
     font-size: 56px;
     line-height: 1.07;
-    color: #ffffff;
+    text-transform: none;
    }
 
 
@@ -1258,4 +1259,3 @@ gap: 32px;
     opacity: 1;
 }
 
- }
