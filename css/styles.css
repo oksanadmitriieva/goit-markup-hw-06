@@ -41,8 +41,8 @@ background-color: #FFFFFF;
     overflow: hidden;
     }
     .container {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 16px;
+        padding-right: 16px;
   
         }
         /*========загальні стилі====*/
@@ -55,6 +55,19 @@ background-color: #FFFFFF;
 .header-adress{
     display: none;
 }
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-page{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  }
+
 .link-logo{
     font-family: Raleway, sans-serif;
     font-weight: 700 ;
@@ -78,17 +91,19 @@ background-color: #FFFFFF;
         }
        .header-btn-menu-mobile{
         border: none;
-        background-color: transparent;
-        padding: 0;
-        line-height: 0;
-        margin-left: auto;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+    width: 24px;
+    height: 24px;
        }
  
        .mobile-menu-close-btn-icon{
-        stroke: #2f2f37;
+        fill: #111111;
+        width: 24px;
+        height: 24px;
        }
-
-
+    
 
         /*=============/HEADER MOBILE STYLES===========*/
 
@@ -98,20 +113,175 @@ background-color: #FFFFFF;
        max-width: 320px;
         margin-left: 0;
         margin-right: 0;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 16px;
+        padding-right: 16px;
              }
+             .menu-link-link{
+                display: flex;
+             }
+             .header-adress{
+                display: flex;
+             }
+
+             .header-btn-menu-mobile{
+                display: none;
+
             }
+            /*========== MOBILE SECTION HERO ============*/
+
+.first-section{
+    padding-top: 72px;
+  padding-bottom: 72px;
+  background: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  url(../images/people-office.jpg);
+  height: 100%;
+  min-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-origin: border-box;
+}
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/peopleofficemob@2x.jpg);
+  }
+}
+
+            /*========== /MOBILE SECTION HERO ============*/
+        }
+        @media screen and (max-width:767px) {
+            тут має бути мобільне меню
+        }
+
+            /*=============HEADER TABLET STYLES===========*/
  @media screen and (min-width: 768px) {
   .container { 
   max-width: 768px;
+} 
+.mobile-menu{
+    display:none;
 
-
-          } 
+}
+.header-container{
+    display:flex;
+    align-items: center;
+   }
+   .main-page-nav{
+   display: flex; 
+   align-items: center;
+   }
+   .link-logo{
+    margin-right: 120px;
+   
+   }
+   .link-header{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+   }
+   .menu-link-link{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: block;
+    padding: 24px 0;
+    color: #2e2f42; 
+    text-decoration: none;
+}
+   .link-active::after{
+       content:"" ;
+       position: absolute;
+       color: #404bbf;
+       left: 0;
+       bottom: -1px;
+       height: 4px;
+       width: 100%;
+       background-color:  #404BBF;
+       border-radius: 2px;
+   }
+   .link-after{
+    position: relative;
+    color: #404bbf;
+   }
+   .menu-link-link:hover{
+   color:#404bbf  ;
+       
+   }
+   .menu-link-link:focus{
+   color:#404bbf ;
+   }
+   .link{
+   padding: 24px 0;
+   gap: 40px;
+   }
+   .header-adress{
+   font-style: normal;
+   margin-left: auto;
+   }
+   .list-header{
+   display: flex; 
+   }
+   .list-header-adress{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+   }
+   .header-contacts{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.48px;
+    color: #434455;
+   }
+   .header-contacts:hover,
+   .header-contacts:focus{
+   color: #404bbf;
+   }
              }
+
+
+
+
+
+
+
+
+
+
+             /*=============/HEADER TABLET STYLES===========*/
  @media screen and (min-width: 1158px) {
  .container {
 max-width: 1158px;
 
                  }
-             }      
+.link-logo{
+    margin-right: 76px;
+}
+.list-header-adress{
+    flex-direction: row;
+    gap: 40px;
+}
+.header-contacts{
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+             }
