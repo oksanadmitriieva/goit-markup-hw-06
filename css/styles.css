@@ -164,7 +164,7 @@ background-color: #FFFFFF;
 .first-section-name{
     margin: 0 auto;
   margin-bottom: 72px;
-  max-width: 288px;
+  max-width: 220px;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -255,6 +255,7 @@ background-color: #FFFFFF;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .team-list-item{
     width: 264px;
@@ -773,8 +774,8 @@ fill: rgb(244, 244, 253);
     border: none;
   }
   .mobile-menu-close-btn-icon {
-    width: 8px;
-    height: 8px;
+    width: 24px;
+    height: 24px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .mobile-menu-nav-link{
@@ -877,9 +878,7 @@ margin-left: 10 px;
     padding-bottom: 16px;
 
   }
-  .team-list-item:not(:last-child) {
-    margin-bottom: 72px;
-  }
+
         }
 
 
