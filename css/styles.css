@@ -119,8 +119,8 @@ background-color: #FFFFFF;
         @media screen and (min-width:480px) {
      .container{      
        max-width: 320px;
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
         padding-left: 16px;
         padding-right: 16px;
              }
@@ -266,6 +266,7 @@ background-color: #FFFFFF;
   }
   .specialist-position{
     padding-top: 32px;
+    padding-bottom: 32px;
   }
   .third-section-names{
     font-size: 20px;
@@ -278,7 +279,7 @@ background-color: #FFFFFF;
 }
 .section-three-position{
     font-size: 16px;
-  margin-bottom: 8px;
+
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -289,7 +290,7 @@ background-color: #FFFFFF;
         justify-content: center; 
         gap: 24px;
         margin-top: 8px;
-        margin-bottom: 32px;
+        
     }
     .key-social-icons-list{
         width: 40px;
@@ -393,6 +394,7 @@ background-color: #FFFFFF;
                            
    .footer-left-part{
     margin-bottom: 72px;
+    align-items: center;
     
    }              
 .footer-log{
@@ -405,7 +407,6 @@ text-transform: uppercase;
 color: #4d5ae5;
 display: inline-block;
 margin-bottom: 16px;
-display: inline-block; 
 text-decoration: none;
 }
 .footer-paragraph{
@@ -483,8 +484,8 @@ fill: rgb(244, 244, 253);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    margin-left: 77px;
-    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
     border-radius: 4px;
     background-color: #4d5ae5;
@@ -977,6 +978,7 @@ margin-left: 10 px;
     line-height: 1.17;
     letter-spacing: 0.48px;
     color: #434455;
+    text-decoration: none;
    }
    .header-contacts:hover,
    .header-contacts:focus{
@@ -1002,12 +1004,22 @@ margin-left: 10 px;
     display: block;
     max-width: 496px;
     font-size: 56px;
-    margin-bottom: 36px;
     line-height: 1.07;
     text-transform: none;
 
   }
-  
+  .first-section-name{
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: 1.12px;
+    line-height: 1.07;
+    color: #ffffff ;
+    max-width: 496px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
 
 
 /*========== /TABLET SECTION HERO ============*/
@@ -1015,8 +1027,6 @@ margin-left: 10 px;
 /*===========TABLET SECOND SECTION===========*/
 .feature-icon-ul{
     gap: 72px 24px;
-    flex-direction: row;
-    flex-wrap: wrap;
   }
 .feature-icon-list{
     width: calc((100% - 24px) / 2);
@@ -1058,7 +1068,7 @@ margin-left: 10 px;
         .page-footer-container{
             display: flex;
             flex-wrap: wrap;
-            width: 584px;
+            max-width: 584px;
          }   
          .footer-log{
             justify-content: normal;
@@ -1113,7 +1123,7 @@ margin-left: 10 px;
 
              }
 
-
+            }
 
 
 
@@ -1225,7 +1235,7 @@ flex-wrap: nowrap;
     padding-bottom: 120px;
   }
   .list-four{
-    column-gap: 24px;
+    row-gap: 48px;
   }
   .portfolio-list-item{
     width: calc((100% - 48px) / 3);
