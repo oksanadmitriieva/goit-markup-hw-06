@@ -129,8 +129,9 @@ display: block;
              }
              .header-adress{
                 display: flex;
-             }
-
+             
+}
+        
              .header-btn-menu-mobile{
                 display: none;
 
@@ -963,6 +964,7 @@ gap: 24px;
    }
    .list-header{
       display: inline-flex;
+      gap: 40px;
     } 
    
    .list-header-adress{
