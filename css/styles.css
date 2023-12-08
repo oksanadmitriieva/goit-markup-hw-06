@@ -210,16 +210,13 @@ display: block;
     padding: 96px 0;
   }
   .feature-icon-ul{
-    gap: 72px 24px;
+    gap: 72px;
     list-style-type: none;
     display: flex;
-    flex-direction: raw;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
   }
-  .feature-icon-list{
-      width: calc((100% - 24px) / 2);
-  }
- 
+  
   .second-section-item{
     color: #2e2f42;
     font-size: 36px;
@@ -963,7 +960,7 @@ gap: 24px;
    margin-left: auto;
    }
    .list-header{
-      display: inline-flex;
+      display: flex;
       gap: 40px;
     } 
    
@@ -1027,8 +1024,9 @@ gap: 24px;
 
 /*===========TABLET SECOND SECTION===========*/
 .feature-icon-ul{
-  column-gap: 24px;
-  row-gap: 72px;
+  gap: 72px 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 .feature-icon-list{
     width: calc((100% - 24px) / 2);
