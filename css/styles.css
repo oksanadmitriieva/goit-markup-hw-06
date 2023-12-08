@@ -795,7 +795,6 @@ fill: rgb(244, 244, 253);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-decoration: none;
-    gap: 40px;
   }
   .mobile-menu-nav-link:hover,
   .mobile-menu-nav-link:focus{
