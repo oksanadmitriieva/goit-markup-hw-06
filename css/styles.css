@@ -215,6 +215,9 @@ display: block;
     flex-direction: raw;
     flex-wrap: wrap;
   }
+  .feature-icon-list{
+      width: calc((100% - 24px) / 2);
+  }
  
   .second-section-item{
     color: #2e2f42;
@@ -266,8 +269,7 @@ display: block;
     background-color: #ffffff;
   }
   .specialist-position{
-  padding-top: 32px;
-  padding-bottom: 32px;
+    padding: 32px 0 ;
   }
   .third-section-names{
     font-size: 20px;
@@ -960,8 +962,9 @@ gap: 24px;
    margin-left: auto;
    }
    .list-header{
-   display: flex; 
-   }
+      display: inline-flex;
+    } 
+   
    .list-header-adress{
     display: flex;
     gap: 12px;
@@ -1022,7 +1025,8 @@ gap: 24px;
 
 /*===========TABLET SECOND SECTION===========*/
 .feature-icon-ul{
-    gap: 72px 24px;
+  column-gap: 24px;
+  row-gap: 72px;
   }
 .feature-icon-list{
     width: calc((100% - 24px) / 2);
@@ -1112,10 +1116,10 @@ gap: 24px;
                .footer-form-accept{
                 width: 376px;
                }
-
+              }
               /*==============/TABLET MODAL===========*/
 
-             }
+             
             
 
 
@@ -1143,6 +1147,7 @@ max-width: 1158px;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+
 /*===========/HEADER DESCTOP STYLES===========*/
 
 /*===========HERO DESCTOP STYLES===========*/
@@ -1268,4 +1273,5 @@ flex-wrap: nowrap;
                 margin-top: 0;
                 margin-left: 0;
             }
-        }
+          
+                  }
