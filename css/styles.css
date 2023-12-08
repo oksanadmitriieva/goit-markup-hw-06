@@ -69,8 +69,6 @@ background-color: #FFFFFF;
     justify-content: space-between;
 }
 .main-page{
-    padding-top: 16px;
-    padding-bottom: 16px;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -209,12 +207,15 @@ background-color: #FFFFFF;
     padding: 96px 0;
   }
   .feature-icon-ul{
-    gap: 72px;
+    gap: 72px 24px;
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    flex-direction: raw;
+    flex-wrap: wrap;
   }
+  .feature-icon-list{
+    width: calc((100% - 24px) / 2);
+}
   .second-section-item{
     color: #2e2f42;
     font-size: 36px;
@@ -252,6 +253,7 @@ background-color: #FFFFFF;
     color: #2e2f42;
 }
 .third-list{
+  gap: 64px 24px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -265,8 +267,7 @@ background-color: #FFFFFF;
     background-color: #ffffff;
   }
   .specialist-position{
-    padding-top: 32px;
-    padding-bottom: 32px;
+   padding: 32px 0;
   }
   .third-section-names{
     font-size: 20px;
@@ -340,6 +341,7 @@ background-color: #FFFFFF;
                 display: flex ;
             flex-wrap: wrap;
             row-gap: 48px;
+            column-gap: 24px;
             }
             .portfolio-list-item {
                 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -474,7 +476,7 @@ fill: rgb(244, 244, 253);
  color: #ffffff;
 }
 .footer-button{
-    display: inline-flex;
+    display: flex;
     min-width: 165px;
     height: 40px;
     justify-content: center;
@@ -724,7 +726,6 @@ fill: rgb(244, 244, 253);
               /*=======  HIDDEN STYLES========= */
 
         @media screen and (max-width:767px) {
-            тут має бути мобільне меню
 .header-btn-menu-mobile{
   border: none;
   background-color: transparent;
@@ -775,9 +776,15 @@ fill: rgb(244, 244, 253);
     border: none;
   }
   .mobile-menu-close-btn-icon {
-    width: 24px;
-    height: 24px;
+    width: 8px;
+    height: 8px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .mobile-menu-nav-list{
+    padding-top: 72px;
+  }
+  .mobile-menu-nav-item:not(:last-child){
+    margin-bottom: 40px;
   }
   .mobile-menu-nav-link{
     color: #2e2f42;
@@ -799,7 +806,6 @@ fill: rgb(244, 244, 253);
   }
   .mobile-menu-address{
     font-style: normal;
-    margin-top: 168px;
   }
   .active{
     color:#404BBF;
@@ -811,8 +817,8 @@ line-height: 40px;
 letter-spacing: 0.72px;
 text-transform: capitalize;
   }
-  .mobile-menu-address-item{
-    gap: 24px;
+  .mobile-menu-address-item:not(:last-child){
+    margin-bottom: 24px;
   }
   .mobile-menu-adress-item:hover,
   .mobile-menu-adress-item:focus{
@@ -844,7 +850,7 @@ gap: 24px;
     color: #404bbf;
   }
   .mobile-menu-nav-item{
-    gap: 40px;
+    margin-bottom: 10px;
   }
   .mobile-menu-social-list{
   display: inline-flex;
@@ -1262,7 +1268,7 @@ flex-wrap: nowrap;
                 margin-right: 120px;
              }
              .footer-right-part{
-                margin-right: 120px;
+                margin-right: 80px;
              }
             .footer-form {
                 display: flex;
