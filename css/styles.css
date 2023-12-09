@@ -258,6 +258,9 @@ display: block;
     text-transform: capitalize;
     color: #2e2f42;
 }
+.team-container{
+  width: 296px;
+}
 .third-list{
   gap: 72px;
   display: flex;
@@ -398,10 +401,7 @@ display: block;
         background-color: #2e2f42;
     }
                            
-   .footer-left-part{
-    margin-bottom: 72px;
-    
-   }              
+                 
 .footer-log{
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -425,9 +425,6 @@ display: block;
   }
 .span-descr{
     color: #f4f4fd;
-}
-.footer-right-part{
-    margin-bottom: 72px;
 }
 .footer-header-icons{
     display: flex;
@@ -781,9 +778,7 @@ fill: rgb(244, 244, 253);
   .mobile-menu-close-btn-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .mobile-menu-nav-list{
-    padding-top: 72px;
-  }
+
   .mobile-menu-nav-item:not(:last-child){
     margin-bottom: 40px;
   }
@@ -1071,6 +1066,7 @@ gap: 24px;
         .page-footer-container{
             display: flex;
             flex-wrap: wrap;
+            width: 584px;
          }   
          .footer-left-part{
           display: flex;
@@ -1083,8 +1079,6 @@ gap: 24px;
           .footer-icons-list {
             display: flex;
             gap: 16px;
-            width: 100%;
-            height: 100%;
             list-style-type: none;
         }
         .footer-header-icons{
@@ -1135,6 +1129,8 @@ gap: 24px;
  @media screen and (min-width: 1158px) {
  .container {
 max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
                  }
 .link-logo{
     margin-right: 76px;
