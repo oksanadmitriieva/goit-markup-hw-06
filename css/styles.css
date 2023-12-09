@@ -420,6 +420,12 @@ display: block;
   max-width: 264px;
   color: #f4f4fd;
   }
+  .footer-right-part{
+    margin-bottom: 72px;
+  }
+  .footer-left-part{
+    margin-bottom: 72px;
+  }
 .span-descr{
     color: #f4f4fd;
 }
@@ -1274,5 +1280,10 @@ flex-wrap: nowrap;
                 margin-top: 0;
                 margin-left: 0;
             }
-          
+          .footer-right-part{
+            margin-bottom: 0;
+          }
+          .footer-left-part{
+            margin-bottom: 0;
+          }
                   }
