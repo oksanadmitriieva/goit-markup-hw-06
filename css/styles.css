@@ -54,11 +54,11 @@ display: block;
         /*=============HEADER MOBILE STYLES===========*/
         @media screen and (min-width: 320px) {
           .container {
+            padding-top: 17.5px;
+            padding-bottom: 17.5px;
             max-width: 320px;
             margin-left: auto;
             margin-right: auto;
-            padding-top: 17.5px;
-            padding-bottom: 17.5px;
           }
           }
 .menu-link-link{
