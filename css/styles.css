@@ -258,9 +258,6 @@ display: block;
     text-transform: capitalize;
     color: #2e2f42;
 }
-.team-container{
-  width: 296px;
-}
 .third-list{
   gap: 72px;
   display: flex;
